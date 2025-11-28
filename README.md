@@ -17,8 +17,6 @@ This project builds a full Gym Wellness & Retention AI System that combines:
 * Automate retention campaigns (new members, low attendance, high attendance, birthdays)
 * Provide gyms with a scalable AI blueprint for engagement and retention
 
----
-
 **Dataset**
 
 All datasets are located in the `/data/` folder.
@@ -43,8 +41,6 @@ All datasets are located in the `/data/` folder.
 **daily_plans_output.csv**
 * Example LLM-generated wellness plans
 
----
-
 **Feature Engineering**
 
 Each member-day is transformed into a 7-day behavioural window:
@@ -58,7 +54,6 @@ Each member-day is transformed into a 7-day behavioural window:
 
 These represent weekly patterns that drive readiness.
 
----
 
 **Machine Learning Model**
 
@@ -73,8 +68,6 @@ A logistic regression model predicts:
 * HIGH: score ≥ 0.7 → recovery strategy
 
 The ML output directly conditions the LLM behaviour.
-
----
 
 **LLM Coaching System**
 
@@ -112,8 +105,6 @@ Chosen from a fixed list:
 
 This ensures structured outputs for Power BI analytics.
 
----
-
 **Automation Workflow (n8n)**
 
 Below is the operational retention workflow:
@@ -129,8 +120,6 @@ The workflow handles:
 
 With OpenAI generating text and Twilio sending messages.
 
----
-
 **Power BI Dashboard**
 
 The dashboard helps analyze:
@@ -143,7 +132,6 @@ The dashboard helps analyze:
 **Download the full dashboard (PDF):**  
 [gym.ai_powerbi.pdf](./dashboards/gym.ai_powerbi.pdf)
 
----
 
 **Folder Structure**
 project-root/
@@ -184,4 +172,5 @@ project-root/
 
 
 **Conclusion**
-This project demonstrates a complete AI-driven retention ecosystem that merges synthetic data, machine learning, LLM coaching, workflow automation, and BI analytics into one unified solution. It is a practical and production-ready blueprint for real gyms aiming to improve retention, wellbeing, and service adoption.
+
+This project brings together synthetic behavioural data, machine learning, LLM-generated coaching, workflow automation, and business intelligence tools into a single integrated framework. The result is a practical and adaptable system that gyms can use to understand member wellbeing, deliver personalized support, and automate key communication processes. Although built on synthetic data, the architecture mirrors real-world operations and can be transferred to production environments with minimal changes, offering a strong foundation for improving member engagement, wellbeing, and service utilization.
