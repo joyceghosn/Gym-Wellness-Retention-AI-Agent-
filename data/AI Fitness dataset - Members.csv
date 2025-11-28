@@ -1,0 +1,16 @@
+MemberID,Name,Age,Birthday,Gender,Goal,Tone,Preferred_Workout,New_or_Old,Attendance_W4
+1,Sarah K,28,1997-04-18,F,Weight Loss,Soft,Cardio,New,0
+2,Rami A,34,1991-10-09,M,Muscle Gain,Strict,Strength,Old,5
+3,Nour M,22,2003-11-27,F,General Fitness,Humorous,HIIT,New,1
+4,Alex H,41,1984-08-12,M,Endurance,Soft,Cardio,Old,3
+5,Maya B,30,1995-06-03,F,Toning,Soft,Classes,Old,4
+6,Karim S,25,2000-11-21,M,Muscle Gain,Strict,Strength,Old,0
+7,Lea D,27,1998-03-14,F,Weight Loss,Humorous,HIIT,New,0
+8,Georges C,45,1980-09-25,M,Health,Soft,Cardio,Old,4
+9,Rita Z,33,1992-12-05,F,General Fitness,Soft,Classes,Old,2
+10,Samer F,29,1996-07-30,M,Strength,Strict,Strength,New,1
+11,Hana L,38,1987-05-16,F,Endurance,Soft,Cardio,Old,4
+12,Tony R,24,2001-01-22,M,Muscle Gain,Strict,HIIT,Old,1
+13,Yara N,31,1994-03-01,F,Weight Loss,Humorous,Cardio,Old,2
+14,Marc J,36,1989-11-07,M,General Fitness,Soft,Classes,New,3
+15,Layal P,26,1999-04-29,F,Strength,Strict,Strength,New,0
